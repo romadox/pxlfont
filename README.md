@@ -3,6 +3,7 @@ This is a tool for creating simple <a href="http://www.angelcode.com/products/bm
 
 It is a Python script, so you'll need <a href="https://www.python.org/">Python</a> (and the <a href="https://github.com/python-pillow/Pillow">Pillow</a> library). After that, simply run <code>py pxlfont.py</code>.
 
+This is a small implementation & assumes that positioning, letter spacing, etc. are handled within the sprite-sheet. As such, it does not manage Bitmap Font properties like offset or kerning.
 
 Info for parsing the font can be provided via a small configuration text-file (recommended), or manually in the Python window (cumbersome).
 
