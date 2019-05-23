@@ -1,0 +1,5 @@
+name Transmutations
+alph 0123456789. !?$ABCDEFGHIJKLMNOPQRSTUVWXYZ:-+=
+lheight 14
+width 8
+tail 2
