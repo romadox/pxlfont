@@ -1,6 +1,10 @@
 This is a tool for creating simple <a href="http://www.angelcode.com/products/bmfont/">Bitmap Fonts</a> from a pixel art spritesheet. I use it for adding simple pixel-art fonts in <a href="https://godotengine.org/">Godot</a>.
 
-Necessary info for parsing the font can be provided via a small configuration text-file (recommended), or manually in terminal (cumbersome).
+
+It is a Python script, so you'll need <a href="https://www.python.org/">Python</a> (and the <a href="https://github.com/python-pillow/Pillow">Pillow</a> library). After that, simply run <i>py pxlfont.py</i>.
+
+
+Info for parsing the font can be provided via a small configuration text-file (recommended), or manually in the Python window (cumbersome).
 
 The config file parameters are as follows:
 <ul><li><b>name</b> -- The font name</li>
