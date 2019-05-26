@@ -13,7 +13,7 @@ The config file parameters are as follows:
 <li><b>lheight</b> -- Line height for this font (pixels)</li>
 <li><b>base</b> -- Pixels from top of line to base of glyphs (defaults to lheight)</li>
 <li><b>width</b> -- Character widths.<ul><li>Separate multiple widths with commas.</li><li>If all chars are the same width, only 1 number is needed.</li></ul></li>
-<li><b>tail</b> -- The amount of unused space at the end of the rows.<ul><li>Defaults to 0.</li><li>Separate multiple tales with commas.</li><li>If all rows have the same tail size, only 1 number is needed.</li></ul></li></ul>
+<li><b>tail</b> -- The amount of unused space at the end of the rows.<ul><li>Defaults to 0.</li><li>Separate multiple tails with commas.</li><li>If all rows have the same tail size, only 1 number is needed.</li></ul></li></ul>
 
 (See <a href="https://github.com/romadox/pxlfont/blob/master/fntcfg.txt">fntcfg.txt</a> for an example config file.)
 
