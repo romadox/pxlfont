@@ -99,6 +99,9 @@ if(img.find("/")>=0):
 if(img.find("\\")>=0):
     img = img[img.rfind("\\"):len(img)]
 
+if(img.startswith(("/","\\"))):
+	img = img[1:len(img)]
+
 rows = image.height // lheight
 
 inx = 0
